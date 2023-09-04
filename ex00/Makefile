@@ -2,7 +2,7 @@ NAME = Convert
 
 SRC = main.cpp ScalarConverter.cpp
 
-FLAG = -Wall -Werror -Wextra
+FLAG = -Wall -Werror -Wextra -std=c++98
 
 OBJ = $(SRC:%.cpp=%.o)
 
